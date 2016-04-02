@@ -5,54 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="renderer" content="webkit">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<title>Insert title here</title>
+<title>shenyou管理平台</title>
 <!--  Bootstrap 核心 CSS 文件 -->
 <link rel="stylesheet" href="../lib/bootstrap/3.3.5/css/bootstrap.css">
 <!--  fontawesome 核心 CSS 文件 -->
-<link rel="stylesheet" href="../lib/fontawesome/4.5.0/css/font-awesome.css">
+<link rel="stylesheet"
+	href="../lib/fontawesome/4.5.0/css/font-awesome.css">
 <!--  metisMenu 核心 CSS 文件 -->
 <link rel="stylesheet" href="../lib/metisMenu/2.4.0/metisMenu.css">
 <!--  本项目 核心 CSS 文件 -->
 <link rel="stylesheet" href="../resources/css/main.css">
 </head>
 <body>
-<!-- TAB TEMPLATE -->
-<svg height="0" width="0" style="position: absolute; margin-left: -100%;">
-  <defs>
-    <filter id='shadow'>
-      <feComponentTransfer in="SourceGraphic">
-        <feFuncR type="discrete" tableValues="0"/>
-        <feFuncG type="discrete" tableValues="0"/>
-        <feFuncB type="discrete" tableValues="0"/>
-      </feComponentTransfer>
-      <feGaussianBlur stdDeviation="1"/>
-       <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
-      <feOffset dx="5" dy="1" result="shadow"/>
-      <feComposite in="SourceGraphic" />
-    </filter>
-
-    <linearGradient id="tab-1-bg" x1="0%" y1="0%" x2="0%" y2="65%">
-      <stop offset="0%" style="stop-color: rgba(220, 222, 221, 1.0);" />
-      <stop offset="100%" style="stop-color: rgba(203, 203, 203, 1.0);" />
-    </linearGradient>
-
-    <linearGradient id="tab-2-bg" x1="0%" y1="0%" x2="0%" y2="65%">
-      <stop offset="0%" style="stop-color: rgba(149, 190, 233, 1.0);" />
-      <stop offset="100%" style="stop-color: rgba(112, 153, 213, 1.0);" />
-    </linearGradient>
-
-  </defs>
-  <path id="tab-shape" d="M116.486,29.036c-23.582-8-14.821-29-42.018-29h-62.4C5.441,0.036,0,5.376,0,12.003v28.033h122v-11H116.486z"/>
-</svg>
 
 	<!-- 左侧菜单开始 -->
 	<nav class="qsy-navigation">
 		<div class="nav-header">
 			<address class="btn-group">
-				<img alt="image" class="img-circle"	src="../resources/images/profile_small.jpg"/>
-				<br/>
-				<strong>Full Name</strong><br/>
-				<a data-toggle="dropdown" class="dropdown-toggle" href="#">超级管理员<b class="caret"></b></a>
+				<img alt="image" class="img-circle"
+					src="../resources/images/profile_small.jpg" /> <br /> <strong>Full
+					Name</strong><br /> <a data-toggle="dropdown" class="dropdown-toggle"
+					href="#">超级管理员<b class="caret"></b></a>
 				<ul class="dropdown-menu animated m-t-xs">
 					<li><a href="form_avatar.html">修改头像</a></li>
 					<li><a href="profile.html">个人资料</a></li>
@@ -65,68 +38,65 @@
 		</div>
 		<div class="sidebar-nav">
 			<div id="nav-menu" class="nav-menu">
-			<ul class="metismenu" id="menu">
-				<li class="active"><a href="#" aria-expanded="true"> <span
-						class="sidebar-nav-item-icon fa fa-home"></span> <span
-						class="sidebar-nav-item">首页</span> <span class="fa arrow"></span>
-				</a>
-					<ul aria-expanded="true">
-						<li><a href="https://github.com/onokumus/metisMenu"> <span
-								class="sidebar-nav-item-icon fa fa-code-fork"></span> Fork
-						</a></li>
-						<li><a href="https://github.com/onokumus/metisMenu"> <span
-								class="sidebar-nav-item-icon fa fa-star"></span> Star
-						</a></li>
-						<li><a href="https://github.com/onokumus/metisMenu/issues">
-								<span class="sidebar-nav-item-icon fa fa-exclamation-triangle"></span>
-								Issues
-						</a></li>
-					</ul></li>
-				<li>
-					<a href="#" aria-expanded="false">系统统计<span class="fa arrow"></span></a>
-					<ul aria-expanded="false">
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#" aria-expanded="false">系统设置
-						<span class="fa arrow"></span>
+				<ul class="metismenu" id="menu">
+					<li class="active"><a href="#" aria-expanded="true"> <span
+							class="sidebar-nav-item-icon fa fa-home"></span> <span
+							class="sidebar-nav-item">首页</span> <span class="glyphicon arrow"></span>
 					</a>
-					<ul aria-expanded="false">
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-						<li><a href="#">item 0.1</a></li>
-						<li><a href="#">item 0.2</a></li>
-						<li><a href="http://onokumus.com">onokumus</a></li>
-						<li><a href="#">item 0.4</a></li>
-					</ul>
-				</li>
-			</ul>
+						<ul aria-expanded="true">
+							<li><a href="https://github.com/onokumus/metisMenu"> <span
+									class="sidebar-nav-item-icon fa fa-code-fork"></span> Fork
+							</a></li>
+							<li><a href="https://github.com/onokumus/metisMenu"> <span
+									class="sidebar-nav-item-icon fa fa-star"></span> Star
+							</a></li>
+							<li><a href="https://github.com/onokumus/metisMenu/issues">
+									<span class="sidebar-nav-item-icon fa fa-exclamation-triangle"></span>
+									Issues
+							</a></li>
+						</ul></li>
+					<li><a href="#" aria-expanded="false">系统统计<span
+							class="glyphicon arrow"></span></a>
+						<ul aria-expanded="false">
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+						</ul></li>
+					<li><a href="#" aria-expanded="false">系统设置 <span
+							class="glyphicon arrow"></span>
+					</a>
+						<ul aria-expanded="false">
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+							<li><a href="#">item 0.1</a></li>
+							<li><a href="#">item 0.2</a></li>
+							<li><a href="http://onokumus.com">onokumus</a></li>
+							<li><a href="#">item 0.4</a></li>
+						</ul></li>
+				</ul>
 			</div>
 		</div>
 	</nav>
@@ -137,54 +107,45 @@
 	</div>
 	<!-- 菜单收缩切换按钮结束 -->
 	<!-- 头部信息开始 -->
-	<header class="qsy-header"> </header>
+	<header class="qsy-header">
+		<h5>欢迎使用本系统。。。</h5>
+	</header>
 	<!-- 头部信息结束 -->
 	<!--右侧部分开始-->
 	<section class="qsy-body">
-		<div class="qsy-tabnav">
-			<ul>
-			    <li class="tab-1 active">
-				    <a href="#tab1" data-toggle="tab">
-				    	<span>我的桌面</span>
-				    	<svg viewBox="0 0 122 40">
-				           <use xlink:href="#tab-shape">
-				           </use>
-	        			</svg>
-				    </a>
-			    </li>
-			    <li class="tab-1">
-				    <a href="#tab2" data-toggle="tab">
-				    	<svg viewBox="0 0 122 40">
-				           <use xlink:href="#tab-shape">
-				           </use>
-	        			</svg>
-				    </a>
-			    </li>
-			    <li class="tab-1">
-				    <a href="#tab3" data-toggle="tab">
-				    	<span>系统设置</span>
-				    	<svg viewBox="0 0 122 40">
-				           <use xlink:href="#tab-shape">
-				           </use>
-	        			</svg>
-				    </a>
-			    </li>
+			<!-- Nav tabs -->
+			<div class="roll-left">
+				<span class="fa fa-backward"></span>
+			</div>
+			<ul id="myTab" class="nav nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab"><span>首页</span></a></li>
+				<li><a href="#profile" data-toggle="tab"><span>数据管理</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#messages" data-toggle="tab"><span>系统管理</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
+				<li><a href="#settings" data-toggle="tab"><span>设置</span><span class="fa fa-times-circle"></span></a></li>
 			</ul>
-		</div>
-		<div class="tab-content">
-		    <div class="tab-pane active" id="tab1">
-		      <p>I'm in Section 1.</p>
-		    </div>
-		    <div class="tab-pane" id="tab2">
-		      <p>Howdy, I'm in Section 2.</p>
-		    </div>
-		     <div class="tab-pane" id="tab3">
-		      <p>Howdy, I'm in Section 2.</p>
-		    </div>
-		</div>
+			<div class="roll-right">
+				<span class="fa fa-forward"></span>
+			</div>
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<iframe role="tabpanel" src="home.html" class="tab-pane active" id="home"></iframe>
+				<iframe role="tabpanel" src="profile.html" class="tab-pane" id="profile"></iframe>
+				<iframe role="tabpanel" src="messages.html" class="tab-pane" id="messages"></iframe>
+				<iframe role="tabpanel" src="settings.html" class="tab-pane" id="settings"></iframe>
+			</div>
 	</section>
 	<!--右侧部分结束-->
-
 
 	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
 	<script src="../lib/jquery/jquery-1.12.1.js"></script>
